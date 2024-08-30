@@ -1,15 +1,13 @@
 import Banner from "./banner";
-import HouseList from "./houseList";
+import StockList from "./stockList";
 
 const App = () => {
-  return (
+    return( 
     <>
-      <Banner>
-        <div>Providing houses all over the world</div>
-      </Banner>
-      <HouseList />
+            <Banner headerText= "Vintage shid innit"/>
+            <StockList/>
     </>
-  );
+    );
 };
 
 export default App;

@@ -1,7 +1,12 @@
-.themeFontColor {
-  color: coral;
+.themeFontColor{
+  color: rgb(248, 203, 0);
 }
 
-tr {
+tr{
   cursor: pointer;
 }
+
+#tableTitle{
+  margin: auto;
+}
+
